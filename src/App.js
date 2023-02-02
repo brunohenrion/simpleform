@@ -18,11 +18,11 @@ function App() {
           if (username && email && password !== confirmPassword) {
             alert(`Vos deux mots de passe ne sont pas identiques`);
           } else if (username && email && password === confirmPassword) {
-            <div>lolo</div>;
+            <div>lol</div>;
           }
         }}
       >
-        <label for="name">Name</label>
+        <p>Name</p>
         <input
           value={username}
           className="text"
@@ -32,7 +32,7 @@ function App() {
             setUsername(event.target.value);
           }}
         />
-        <label for="email">Email</label>
+        <p>Email</p>
         <input
           value={email}
           className="email"
@@ -42,9 +42,7 @@ function App() {
             setEmail(event.target.value);
           }}
         />
-        <label className="pass" for="password">
-          Password
-        </label>
+        <p>Password</p>
         <input
           value={password}
           className="password"
@@ -54,9 +52,7 @@ function App() {
             setPassword(event.target.value);
           }}
         />
-        <label className="confirm" for="Confirmpassword">
-          Confirm your password
-        </label>
+        <p>Confirm your password</p>
         <input
           value={confirmPassword}
           className="confirmpassword"

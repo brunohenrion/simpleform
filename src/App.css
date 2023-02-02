@@ -26,8 +26,9 @@ form {
   align-items: center;
 }
 
-label {
-  margin-right: 280px;
+p {
+  margin-left: -100px;
+  width: 200px;
 }
 .pass {
   margin-left: 35px;
